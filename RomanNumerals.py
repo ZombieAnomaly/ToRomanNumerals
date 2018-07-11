@@ -75,8 +75,7 @@ class RomanNumeralConverter:
         return romanNumeral
 
 c = RomanNumeralConverter()
-x = 0
-while x == 0:
+while True:
     i = input("Enter a whole number to convert...")
     if "exit" in i or "clear" in i:
         print("bye!")
